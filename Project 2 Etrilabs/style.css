@@ -1,0 +1,18 @@
+/* .bg-orange {
+    background-color: #fd7e14;
+} */
+
+.pad {
+    margin-bottom: 20px;
+}
+
+.size {
+    width: 100% !important;
+    height: 416px;
+}
+
+.detect-error {
+    background-color: aqua;
+    background-image: url(./jie-H8eX_1Whx1c-unsplash.png);
+    height: 416px;
+}
