@@ -206,6 +206,7 @@
     .icon {
         width: 100%;
         text-align: center;
+        background-color: gray;
     }
     .descend {
         margin-top: 15px;
