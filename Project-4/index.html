@@ -6,10 +6,244 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Besley:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 space-marg-left">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="#">Category</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="#">Pages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="#">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link color" href="#">Contact</a>
+                    </li>
+                </ul>
+                <div class="d-flex" style="justify-content: space-around;">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 space-marg-right">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" style="margin-top: 05px;">Login</a>
+                        </li>
+                        <li class="nav-item">
 
+                            <a class="nav-link" href="#"><button type="button" class="btn btn-danger ">+SUBMIT RECIPES</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container bot">
+        <div class="d-flex justify-content-between">
+            <div class="icon descend">
+                <i class="spac-e bi bi-facebook"></i>
+                <i class="spac-e bi bi-twitter"></i>
+                <i class="spac-e bi bi-linkedin"></i>
+                <i class="spac-e bi bi-broadcast-pin"></i>
+                <i class="spac-e bi bi-skype"></i>
+                <i class="spac-e bi bi-wifi"></i>
+                <i class="spac-e bi bi-google"></i>
+            </div>
+            <div><img src="./images/Ranna-.png" alt="" class="logo"></div>
+            <div class="devise descend">
+                <a href="#"><i class="bi bi-search dark"></i><span class="dark">  |</span></a>
+                <a href="#" class="deco dark"><i class="bi bi-bag-check"></i> $00</a>
+            </div>
+        </div>
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="my-image-1"></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="on-the-image">
+                            <p class="color-red font-family-1" style="position: relative; top: 15px;">S A L A D</p>
+                            <h3 class="color-black font-family-2">Italiano Salad Mixed</h3>
+                            <div style="position:relative; bottom:10px;">
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star--"></i>
+                                <span class="color-black">  <strong>9</strong> /10</span>
+                            </div>
+                            <div style="position:relative; bottom:10px;">
+                                <p class="color-black" style="margin-top: 10px;">More off this less hello salamander lied porpose much over tightly
+                                    <br>circa outside crud mightily rigorouse</p>
+                            </div>
+                            <div style="position: relative; bottom: 15px;">
+                                <span class="color-black spac-e "><i class="bi bi-clock-fill color-red "></i> 15 Min</span>
+                                <span class="color-black spac-e "><i class="bi bi-person-fill color-red "></i> by <strong>John Martini</strong></span>
+                                <span class="color-black spac-e "><i class="bi bi-suit-heart-fill color-red "></i><strong> 02</strong> Likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="my-image-2 "></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="on-the-image">
+                            <p class="color-red font-family-1" style="position: relative; top: 15px;">S A L A D</p>
+                            <h3 class="color-black font-family-2">Italiano Salad Mixed</h3>
+                            <div style="position:relative; bottom:10px;">
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star--"></i>
+                                <span class="color-black">  <strong>9</strong> /10</span>
+                            </div>
+                            <div style="position:relative; bottom:10px;">
+                                <p class="color-black" style="margin-top: 10px;">More off this less hello salamander lied porpose much over tightly
+                                    <br>circa outside crud mightily rigorouse</p>
+                            </div>
+                            <div style="position: relative; bottom: 15px;">
+                                <span class="color-black spac-e "><i class="bi bi-clock-fill color-red "></i> 15 Min</span>
+                                <span class="color-black spac-e "><i class="bi bi-person-fill color-red "></i> by <strong>John Martini</strong></span>
+                                <span class="color-black spac-e "><i class="bi bi-suit-heart-fill color-red "></i><strong> 02</strong> Likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="my-image-3 "></div>
+                    <div class="carousel-caption d-none d-md-block">
+                        <div class="on-the-image">
+                            <p class="color-red font-family-1" style="position: relative; top: 15px;">S A L A D</p>
+                            <h3 class="color-black font-family-2">Italiano Salad Mixed</h3>
+                            <div style="position:relative; bottom:10px;">
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star-"></i>
+                                <i class="bi bi-star-fill star--"></i>
+                                <span class="color-black">  <strong>9</strong> /10</span>
+                            </div>
+                            <div style="position:relative; bottom:10px;">
+                                <p class="color-black" style="margin-top: 10px;">More off this less hello salamander lied porpose much over tightly
+                                    <br>circa outside crud mightily rigorouse</p>
+                            </div>
+                            <div style="position: relative; bottom: 15px;">
+                                <span class="color-black spac-e "><i class="bi bi-clock-fill color-red "></i> 15 Min</span>
+                                <span class="color-black spac-e "><i class="bi bi-person-fill color-red "></i> by <strong>John Martini</strong></span>
+                                <span class="color-black spac-e "><i class="bi bi-suit-heart-fill color-red "></i><strong> 02</strong> Likes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+    </div>
+    <!-- efefedz -->
+
+    <div class="container bott-om ">
+        <div class="d-flex justify-content-between mobile-flex">
+            <div class="cookies ">
+                <div class="cookies-c">
+                    <p class="color-red font-family-1" style="position: relative; top: 15px;">S A L A D</p>
+                    <h3 class="color-black font-family-2 ft-size">Tomatoes Stuffed with Foie and Chanterelles</h3>
+                    <div class="star-pos">
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star--"></i>
+                        <span class="color-black">  <strong>9</strong> /10</span>
+                    </div>
+                    <div style="position:relative; bottom:10px;">
+                        <p class="color-black" style="margin-top: 10px;"></p>
+                    </div>
+                    <div style="position: relative; bottom: 15px;">
+                        <span class="color-black spac-e "><i class="bi bi-clock-fill color-red "></i> 15 Min</span>
+                        <span class="color-black spac-e "><i class="bi bi-person-fill color-red "></i> by <strong>John Martini</strong></span>
+                        <span class="color-black spac-e "><i class="bi bi-suit-heart-fill color-red "></i><strong> 02</strong> Likes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="bread ">
+                <div class="bread-c">
+                    <p class="color-red font-family-1" style="position: relative; top: 15px;">S A L A D</p>
+                    <h3 class="color-black font-family-2 ft-size">Pumpkin Cheesecalse With Glingersnap Crupst</h3>
+                    <div class="star-pos">
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star--"></i>
+                        <span class="color-black">  <strong>9</strong> /10</span>
+                    </div>
+                    <div style="position:relative; bottom:10px;">
+                        <p class="color-black" style="margin-top: 10px;"></p>
+                    </div>
+                    <div style="position: relative; bottom: 15px;">
+                        <span class="color-black spac-e "><i class="bi bi-clock-fill color-red "></i> 15 Min</span>
+                        <span class="color-black spac-e "><i class="bi bi-person-fill color-red "></i> by <strong>John Martini</strong></span>
+                        <span class="color-black spac-e "><i class="bi bi-suit-heart-fill color-red "></i><strong> 02</strong> Likes</span>
+                    </div>
+                </div>
+            </div>
+            <div class="cups ">
+                <div class="cups-c">
+                    <p class="color-red font-family-1" style="position: relative; top: 15px;">S A L A D</p>
+                    <h3 class="color-black font-family-2 ft-size">Blueberry Juice with Lemon <br>Crema</h3>
+                    <div class="star-pos">
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star-"></i>
+                        <i class="bi bi-star-fill star--"></i>
+                        <span class="color-black">  <strong>9</strong> /10</span>
+                    </div>
+                    <div style="position:relative; bottom:10px;">
+                        <p class="color-black" style="margin-top: 10px;"> </p>
+                    </div>
+                    <div style="position: relative; bottom: 15px;">
+                        <span class="color-black spac-e "><i class="bi bi-clock-fill color-red "></i> 15 Min</span>
+                        <span class="color-black spac-e "><i class="bi bi-person-fill color-red "></i> by <strong>John Martini</strong></span>
+                        <span class="color-black spac-e "><i class="bi bi-suit-heart-fill color-red "></i><strong> 02</strong> Likes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </div>
+    <script src="./js/bootstrap.min.js "></script>
 </body>
 
 </html>

@@ -1,0 +1,219 @@
+.color {
+    color: aliceblue !important;
+}
+
+.space {
+    margin-left: 30px;
+}
+
+.space-marg-left {
+    padding-left: 100px;
+}
+
+.space-marg-right {
+    padding-right: 100px;
+}
+
+.marg {
+    margin-left: 400px;
+}
+
+.logo {
+    width: 150px;
+    height: 100%;
+}
+
+.pm {
+    border-radius: 100px;
+}
+
+.bot {
+    margin-top: 10px;
+}
+
+.dis-flex {
+    display: flex;
+}
+
+.spac-e {
+    margin-left: 10px;
+}
+
+.descend {
+    margin-top: 15px;
+}
+
+.my-image-1 {
+    margin-top: 20px;
+    background-image: url(./../images/essaie-1.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-image-2 {
+    margin-top: 20px;
+    background-image: url(./../images/essaie-2.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.my-image-3 {
+    margin-top: 20px;
+    background-image: url(./../images/essaie-3.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.deco {
+    text-decoration: none;
+}
+
+.dark {
+    color: black;
+}
+
+.on-the-image {
+    width: 100%;
+    height: 200px;
+    text-align: center !important;
+    background-color: aliceblue;
+    position: relative;
+    top: 40px;
+}
+
+.cookies-c {
+    width: 100%;
+    height: 200px;
+    text-align: center !important;
+    position: relative;
+    top: 40px;
+    margin-top: 240px;
+}
+
+.bread-c {
+    width: 100%;
+    height: 200px;
+    text-align: center !important;
+    position: relative;
+    top: 40px;
+    margin-top: 240px;
+}
+
+.cups-c {
+    width: 100%;
+    height: 200px;
+    text-align: center !important;
+    position: relative;
+    top: 40px;
+    margin-top: 240px;
+}
+
+.color-red {
+    color: red;
+}
+
+.color-black {
+    color: black;
+}
+
+.font-family-2 {
+    font-family: 'Besley', serif;
+}
+
+.font-family-1 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.star- {
+    color: yellow;
+}
+
+.star-- {
+    color: black;
+    opacity: 0.2;
+    margin-right: 10px;
+}
+
+.bott-om {
+    margin-top: 40px;
+}
+
+.cookies {
+    background-image: url(./../images/2-1.jpg);
+    height: 285px;
+    background-size: cover;
+    width: 100%;
+}
+
+.bread {
+    background-image: url(./../images/3-1.webp);
+    height: 285px;
+    background-size: cover;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.cups {
+    background-image: url(./../images/4-1.jpg);
+    height: 285px;
+    background-size: cover;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.ft-size {
+    font-size: 16px;
+    text-align: center;
+}
+
+.star-pos {
+    position: relative;
+    top: 0px;
+}
+
+@media only screen and (max-width: 800px) {
+    .space-marg-left {
+        padding-left: 0px;
+    }
+    .space-marg-right {
+        padding-right: 0px;
+    }
+    .mobile-flex {
+        flex-direction: column;
+    }
+    .cookies {
+        background-image: url(./../images/2-1.jpg);
+        height: 285px;
+        width: 100%;
+        margin-bottom: 150px;
+    }
+    .bread {
+        background-image: url(./../images/3-1.webp);
+        height: 285px;
+        width: 100%;
+        margin-bottom: 150px;
+        margin-left: 0px;
+    }
+    .cups {
+        background-image: url(./../images/4-1.jpg);
+        height: 285px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .icon {
+        width: 100px;
+    }
+    .descend {
+        margin-top: 15px;
+    }
+    .devise {
+        display: none;
+    }
+    .logo {
+        width: 200px;
+        height: 100%;
+    }
+}
