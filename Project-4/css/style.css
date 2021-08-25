@@ -188,13 +188,13 @@
         background-image: url(./../images/2-1.jpg);
         height: 285px;
         width: 100%;
-        margin-bottom: 150px;
+        margin-bottom: 200px;
     }
     .bread {
         background-image: url(./../images/3-1.webp);
         height: 285px;
         width: 100%;
-        margin-bottom: 150px;
+        margin-bottom: 200px;
         margin-left: 0px;
     }
     .cups {
@@ -204,7 +204,8 @@
         margin-left: 0px;
     }
     .icon {
-        width: 100px;
+        width: 100%;
+        text-align: center;
     }
     .descend {
         margin-top: 15px;
@@ -215,5 +216,11 @@
     .logo {
         width: 200px;
         height: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .div-logo {
+        margin-top: 10px;
+        text-align: center;
     }
 }
