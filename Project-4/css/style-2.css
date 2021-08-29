@@ -1,0 +1,26 @@
+.separate {
+    margin-bottom: 150px;
+}
+
+.actuality-g {
+    background-image: url(./../images/image-1.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+.actuality-d-h {
+    background-image: url(./../images/image-3.webp);
+    height: 200px;
+    background-size: cover;
+    /* width: 100%; */
+}
+
+.actuality-d-h-1 {
+    background-image: url(./../images/image-4.jpg);
+}
+
+.actuality-d-h-2 {
+    background-image: url(./../images/image-2.jpg);
+    height: 200px;
+    background-size: cover;
+}

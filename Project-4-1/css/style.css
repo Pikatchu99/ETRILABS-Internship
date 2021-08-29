@@ -1,0 +1,176 @@
+.down {
+    position: relative;
+    right: 20px;
+}
+
+.image-size {
+    height: 650px;
+}
+
+.square {
+    height: 230px;
+    width: 100%;
+    background-color: aliceblue;
+    top: 40px;
+}
+
+.star- {
+    color: yellow;
+}
+
+.star-- {
+    color: black;
+    opacity: 0.2;
+    margin-right: 10px;
+}
+
+.bott-om {
+    bottom: 25px;
+}
+
+.top-10 {
+    top: 10px;
+}
+
+.top-15 {
+    top: 15px;
+}
+
+.font-family-2 {
+    font-family: 'Besley', serif;
+}
+
+.font-family-1 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.h-200 {
+    height: 285px;
+}
+
+.image-1 {
+    background-image: url(./../images/2-1.jpg);
+    height: 285px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-2 {
+    background-image: url(./../images/3-.jpg);
+    height: 285px;
+    width: 100%;
+    background-size: cover;
+}
+
+.image-3 {
+    background-image: url(./../images/4-1.jpg);
+    height: 285px;
+    width: 100%;
+    background-size: cover;
+}
+
+.mt-relative {
+    position: relative;
+    top: 300px;
+}
+
+.mt-pos {
+    margin-top: 300px;
+}
+
+.le-fou {
+    background-image: url(./../images/image-1.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+.le-stade {
+    background-image: url(./../images/image-3.webp);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.femme-fleur {
+    background-image: url(./../images/image-4.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+.guitarre {
+    background-image: url(./../images/image-2.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .down {
+        position: relative;
+        right: 0px;
+    }
+    .flex-xs-column {
+        display: flex;
+        flex-direction: column;
+    }
+    .search-market {
+        display: none;
+    }
+    .flex-x {
+        flex-direction: column;
+        text-align: center;
+    }
+    .reseau-sociau {
+        display: flex;
+        justify-content: space-around;
+    }
+    .image-size {
+        height: 485px;
+    }
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+    .mt-pos {
+        margin-top: 350px;
+    }
+}
+
+@media (max-width:768px) {
+    .image-2 {
+        background-image: url(./../images/3-.jpg);
+        height: 285px;
+        width: 100%;
+        background-size: cover;
+        margin-top: 300px;
+    }
+    .image-3 {
+        background-image: url(./../images/4-1.jpg);
+        height: 285px;
+        width: 100%;
+        background-size: cover;
+        margin-top: 300px;
+    }
+    .my-marge {
+        margin-bottom: 30px;
+    }
+}
+
+.h-perso {
+    height: 89% !important;
+}
+
+.line-red {
+    width: 100%;
+    height: 0px;
+    border: 1px solid;
+    color: red;
+}
+
+.line-black {
+    width: 100%;
+    height: 0px;
+    border: 1px solid;
+    color: #000;
+}
