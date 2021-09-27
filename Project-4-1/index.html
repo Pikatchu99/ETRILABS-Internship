@@ -317,15 +317,44 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <button type="button" class="btn btn-danger ">Top Stories</button>
+                <div class="d-flex justify-content-between">
+                    <button type="button" class="btn btn-danger ">Top Stories</button>
+                    <div class="d-fle mt-mb">
+                        <!-- <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-politics-tab" data-bs-toggle="pill" data-bs-target="#pills-politics" type="button" role="tab" aria-controls="pills-politics" aria-selected="true">Politics</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-fashion-tab" data-bs-toggle="pill" data-bs-target="#pills-fashion" type="button" role="tab" aria-controls="pills-fashion" aria-selected="false">Fashion</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-travel-tab" data-bs-toggle="pill" data-bs-target="#pills-travel" type="button" role="tab" aria-controls="pills-travel" aria-selected="false">Travel</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-gadgets-tab" data-bs-toggle="pill" data-bs-target="#pills-gadgets" type="button" role="tab" aria-controls="pills-gadgets" aria-selected="false">Gadgets</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-more-tab" data-bs-toggle="pill" data-bs-target="#pills-more" type="button" role="tab" aria-controls="pills-more" aria-selected="false">More</button>
+                            </li>
+                        </ul> -->
+                    </div>
+
+                </div>
                 <div class="line-red"></div>
                 <div class="row">
                     <div class="col-md-6 mt-3">
-                        <img src="./images/image-5.jpg" alt="" class="w-100">
+                        <!-- <img src="./images/image-5.jpg" alt="" class="w-100"> -->
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-politics" role="tabpanel" aria-labelledby="pills-politics-tab"><img src="./images/image-5.jpg" alt="" class="w-100 h-100"></div>
+                            <div class="tab-pane fade" id="pills-fashion" role="tabpanel" aria-labelledby="pills-fashion-tab"><img src="./images/image-6.jpg" alt="" class="w-100 h-100"></div>
+                            <div class="tab-pane fade" id="pills-travel" role="tabpanel" aria-labelledby="pills-travel-tab"><img src="./images/image-7.jpg" alt="" class="w-100 h-100"></div>
+                            <div class="tab-pane fade" id="pills-gadgets" role="tabpanel" aria-labelledby="pills-gadgets-tab"><img src="./images/image-10.jpg" alt="" class="w-100 h-100"></div>
+                            <div class="tab-pane fade" id="pills-more" role="tabpanel" aria-labelledby="pills-more-tab"><img src="./images/image-4.jpg" alt="" class="w-100 h-100"></div>
+                        </div>
                     </div>
                     <div class="col-md-6 mt-3">
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6" id="moi">
                                 <img src="./images/image-7.jpg" alt="" class="w-100">
                             </div>
                             <div class="col-md-6">
@@ -388,6 +417,18 @@
             </div>
         </div>
     </div>
+
+    <!-- <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+            <span class="me-2">More</span><i class="bi bi-arrow-right-square-fill"></i>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div> -->
+
     <!-- Section three -->
 </body>
 
